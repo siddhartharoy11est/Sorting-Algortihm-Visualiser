@@ -1,0 +1,17 @@
+.btn{
+  margin: 0px;
+}
+body{
+  background-color: #f0efeb;
+}
+.bar{
+  background-color: red;
+  margin: 0.5px;
+  display: inline-block;
+}
+.contain {
+  margin-left: 20%;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
