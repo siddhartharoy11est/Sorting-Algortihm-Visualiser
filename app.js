@@ -21,7 +21,7 @@ for(var i=0; i<100; i++){
 
 
 app.post("/", function(req, res){
-  console.log(req.body);
+//  console.log(req.body);
 })
 
 app.listen(3000, function(){
