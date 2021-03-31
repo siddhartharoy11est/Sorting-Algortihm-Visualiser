@@ -16,10 +16,12 @@
     <a class="navbar-brand" href="#">Sorting visualiser</a>
 <div class="buttons">
 <form action="/" method="post">
-  <button type="button submit" name="quick" class="btn btn-outline-info">Quick Sort</button>
-  <button type="button submit" name="bubble"  class="btn btn-outline-info">Bubble Sort</button>
-  <button type="button submit" name="merge"  class="btn btn-outline-info">Merge Sort</button>
+  <button type="button submit" name="quick" class="btn btn-outline-info" onclick="quickkk()">Quick Sort</button>
+  <button type="button submit" name="bubble"  class="btn btn-outline-info" onclick="help()">Bubble Sort</button>
+  <button type="button submit" name="merge"  class="btn btn-outline-info" onclick="merges()">Merge Sort</button>
   <button type="button submit" name="selection"  class="btn btn-outline-info" onclick="helper()">Selection Sort</button>
+  <button type="button submit" name="insertion"  class="btn btn-outline-info" onclick="insert()">Insertion Sort</button>
+
 </form>
 </div>
   </div>
@@ -37,5 +39,10 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/second.js" charset="utf-8"></script>
+<script src="js/mergeSort.js" charset="utf-8"></script>
+<script src="js/quickSort.js" charset="utf-8"></script>
+<script src="js/insertion.js" charset="utf-8"></script>
+<script src="js/selection.js" charset="utf-8"></script>
+<script src="js/bubble.js" charset="utf-8"></script>
   </body>
 </html>
